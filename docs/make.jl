@@ -11,9 +11,9 @@ makedocs(
     ]
 )
 
-# deploydocs(
-#     repo   = "github.com/borh/TextStylometry.jl.git",
-#     target = "build",
-#     deps   = nothing, # Deps.pip("pygments", "mkdocs", "python-markdown-math"),
-#     make   = nothing
-# )
+deploydocs(
+    repo   = "github.com/borh/TextStylometry.jl.git",
+    target = "build",
+    deps   = nothing, # Deps.pip("pygments", "mkdocs", "python-markdown-math"),
+    make   = nothing
+)
