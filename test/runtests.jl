@@ -1,5 +1,8 @@
 using TextStylometry
 using Base.Test
 
-# write your own tests here
-@test 1 == 2
+@testset "I/O tests" begin include("corpus_tests.jl") end
+@testset "measures tests" begin include("measures_tests.jl") end
+
+using Lint
+lintpkg("TextStylometry")
