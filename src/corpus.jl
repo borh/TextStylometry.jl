@@ -1,14 +1,14 @@
 using JLD2 # save, load
 
-"Compressed sparse column format document-term matrix"
-struct DocumentTermMatrix
-    "ordered term vector"
-    terms::Vector{String}
-    "term to column index mapping"
-    termidx::Dict{String,Int}
-    "document-term matrix"
-    matrix::SparseMatrixCSC{Int,Int}
-end
+# "Compressed sparse column format document-term matrix"
+# struct DocumentTermMatrix
+#     "ordered term vector"
+#     terms::Vector{String}
+#     "term to column index mapping"
+#     termidx::Dict{String,Int}
+#     "document-term matrix"
+#     matrix::SparseMatrixCSC{Int,Int}
+# end
 
 abstract type AbstractDocument end
 

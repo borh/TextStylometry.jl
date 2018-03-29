@@ -12,6 +12,4 @@ a²
 dugast_U
 LN
 brunet_W
-sttr
-mattr
 ```

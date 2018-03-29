@@ -7,7 +7,9 @@ makedocs(
     pages = [
         "index.md",
         "Corpus" => "corpus.md",
+        "Features" => "features.md",
         "Measures" => "measures.md",
+        "Bootstrap measures" => "bootstrap.md",
     ]
 )
 
