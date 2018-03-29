@@ -17,7 +17,7 @@ Calculate `f` on `window`-size chunks of `tokens`.
 """
 function bootstrap_window(f::Function,tokens::Vector{T},window=1000) where T
     N = length(tokens)
-    Float64[f(@view t[start:start+window-1])
+    Float64[f(tokens[start:start+window-1])
             for start in equal_windows(N,window)]
 end
 
