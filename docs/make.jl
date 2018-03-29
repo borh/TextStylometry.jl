@@ -16,6 +16,7 @@ makedocs(
 deploydocs(
     repo   = "github.com/borh/TextStylometry.jl.git",
     target = "build",
+    julia  = "0.6",
     deps   = nothing, # Deps.pip("pygments", "mkdocs", "python-markdown-math"),
     make   = nothing
 )

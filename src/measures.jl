@@ -127,6 +127,9 @@ Brunet's parametric expression W (1978) (Eq. 10)
 ```math
 W = N^{V(N)^{-a}},
 ```
-where ```a = -0.172``` and ```V(N) = (\\frac{\\log W}{\\log N})^a = \\log^a_N W```.
+where ```a = -0.172``` and
+```math
+V(N) = (\\frac{\\log W}{\\log N})^a = \\log^a_N W.
+```
 """
 brunet_W(N) = N^(V(N)^(-0.172))
