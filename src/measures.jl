@@ -51,7 +51,7 @@ Type token ratio (Eq. 3)
 TTR(N) = \\frac{V(N)}{N}
 ```
 """
-ttr(tokens) = length(unique(tokens))/length(tokens)
+ttr(tokens::Array{T}) where T = length(unique(tokens))/length(tokens)
 
 """
     guiraud_r(N)
